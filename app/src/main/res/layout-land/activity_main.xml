@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imgImage"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/labTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textSize="30dp"
+                android:textColor="@color/blue"
+                android:gravity="center" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reserve"
+                android:textColor="@color/red"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgImage"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/phuc1"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pool"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/orange"
+            android:layout_alignLeft="@id/imgImage"
+            android:layout_alignBottom="@id/imgImage"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

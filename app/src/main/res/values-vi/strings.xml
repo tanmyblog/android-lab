@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">Côn Đảo Resort</string>
+        <string name="welcome">Chào mừng đến với Côn Đảo Resort</string>
+        <string name="pool">Hồ bơi của chúng tôi</string>
+        <string name="reserve">Nhào vô kiếm ăn!</string>
+    </resources>
